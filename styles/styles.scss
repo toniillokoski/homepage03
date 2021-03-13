@@ -107,11 +107,10 @@ body.dark ul li a .fa {
 
 .toggleClass {
     position: absolute;
-    top: 30px;
-    right: 400px;
+    top: 52px;
+    right: 485px;
     width: 20px;
     height: 20px;
-    font-size: 18px;
     border-radius: 50%;
     background: #212121;
     cursor: pointer;
@@ -124,7 +123,7 @@ body.dark ul li a .fa {
     left: 25px;
     content: 'Dark Mode';
     white-space: nowrap;
-    font-size: 1em;
+    font-size: 1.25em;
 }
 
 body.dark .toggleClass {
@@ -140,8 +139,8 @@ body.dark .toggleClass::before {
 
 #mainbox {
     position: absolute;
-    top: 30px;
-    left: 400px;
+    top: 52px;
+    left: 485px;
     font-size: 24px;
     cursor: pointer;
     transition: all .6s;
@@ -177,10 +176,9 @@ body.dark .toggleClass::before {
 
 .sidemenu .closebtn {
     position: absolute;
-    top: -25px;
-    right: 30px;
+    top: 0%;
+    right: 50px;
     font-size: 36px;
-    margin-left: 32px;
 }
 
 body.dark #mainbox {
